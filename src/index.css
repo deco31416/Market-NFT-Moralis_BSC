@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.dropdown {
+  display: none;
+}
+
+#options {
+  display: none;
+}
+
+.menu-header-button-phone {
+  background: #005c70 !important;
+  border: 1px solid white;
+  border-radius: 2.5px;
+}
+
+.menu-header-phone {
+  font-size: 1em;
+}
+
+.menu-desktop {
+  display: inherit;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+  background: rgb(6, 14, 31);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 0%, rgba(143,239,255,1) 100%, rgba(0,254,255,1) 100%);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #000000;
+}
+
+#root, html, body, .profile-component {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.buy-button {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 0%, rgba(143,239,255,1) 100%, rgba(0,254,255,1) 100%);
+  border: none !important;
+  padding: 0.75em 0 0.75em 0 !important;
+  border-radius: 8.5px !important;
+}
+
+.labels-profile {
+  color: #fff !important;
+}
+
+.login-component, 
+.sign-component, 
+.home-component, 
+.background-inset,
+.marketplace,
+.reset-password-component,
+.container-marketplace, 
+.profile-component {
+  background: rgb(6, 14, 31);
+}
+
+.background-inset {
+  height: 140%;
+  width: 105%;
+  padding: 0;
+  margin-left: -2.5%;
+  margin-top: -2.5%;
+  display: flex;
+}
+
+.home-component {
+  background-image: url("https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-marketplace, 
+.login-component,
+.reset-password-component, 
+.sign-component, 
+.home-component {
+  height: 100%;
+}
+
+.card  {
+  padding: 1em !important;
+}
+
+.login-component, .sign-component, .home-component {
+  width: 100%;
+  box-shadow: inset 0px -5px 15px #00ecff !important;
+}
+
+.card {
+  background: #005c70 !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.filter-container {
+  padding: 1em;
+  max-width: 30% !important;
+}
+
+.mounts-filter, .filter-button {
+  border: 1px solid #ffffff !important;
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.update-form {
+  max-width: 40%;
+  margin: auto;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 0%, rgba(143,239,255,1) 100%, rgba(0,254,255,1) 100%) 1 !important;
+  border-radius: 5px !important;
+  padding: 2em 3em 2em 3em;
+  margin-top: 2.5%;
+}
+
+.inputs-profile {
+  border: 1px solid #ffffff !important;
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.update-form .buy-button {
+  margin-top: 1em;
+  border-radius: 2.5px !important;
+}
+
+.marketplace, 
+.profile-component, 
+.profile-container, 
+.login-component, 
+.sign-component, 
+.home-component {
+  display: flex;
+}
+
+.reset-password-component {
+  padding: 1em !important;
+}
+
+.profile-component, 
+.login-component, 
+.sign-component, 
+.home-component {
+  flex-direction: column;
+}
+
+.marketplace, .profile-container {
+  flex-direction: row;
+}
+
+.card-body {
+  text-align: center !important;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-text {
+  color: #00d1d1;
+}
+
+.card-img-top {
+  width: 75% !important;
+  margin: auto !important;
+  margin-top: 12.5% !important;
+}
+
+.card-footer p {
+  margin: 0;
+  color: #839fa7;
+}
+
+.card-footer p:hover {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.card .buy-button:hover {
+  animation-name: hover;
+  animation-duration: 600ms;
+}
+
+@keyframes hover {
+  0% {
+    background: linear-gradient(60deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  15% {
+    background: linear-gradient(90deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  25% {
+    background: linear-gradient(120deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  35% {
+    background: linear-gradient(150deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  50% {
+    background: linear-gradient(180deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  65% {
+    background: linear-gradient(150deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  75% {
+    background: linear-gradient(120deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  85% {
+    background: linear-gradient(90deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+  100% {
+    background: linear-gradient(60deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%);
+  }
+}
+
+.home-img {
+  margin: auto;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid white;
+}
+
+.dashboard-card {
+  padding: 0;
+  border-radius: 5px !important;
+  width: 30%;
+  height: 5rem;
+  display: flex !important;
+  margin: auto  auto 2.5% auto;
+  background: linear-gradient(90deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%) !important;
+}
+
+.dashboard-card:hover {
+  animation-name: hover !important;
+  animation-duration: 300ms !important;
+  background: linear-gradient(267deg, #020024 0%, #0096ff 0%, #8fefff 100%, #00feff 100%) !important;
+}
+
+.dashboard-card h3 {
+  color: #ffffff !important;
+  margin: auto !important;
+}
+
+.redirects-forms a {
+  color: #ffffff !important;
+}
+
+.redirects-forms a p {
+  margin: 0 !important;
+}
+
+.redirects-forms {
+  /*margin: auto !important;*/
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 440px) {
+
+  .card {
+    margin: auto;
+    width: 21rem !important;
+  }
+
+  #options {
+    padding: 0 0 0.5em 1em !important;
+    color: #fff !important;
+    font-size: 2em !important;
+    font-weight: bolder !important;
+    display: inherit;
+  }
+
+  .filter-container {
+    display: none !important;
+  }
+
+  .dropdown {
+    display: inherit;
+  }
+
+  .menu-desktop {
+    display: none !important;
+  }
+
+  .update-form {
+    max-width: 90% !important;
+    margin-top: 40% !important;
+  }
+
+}
